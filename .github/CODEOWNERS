@@ -1,0 +1,16 @@
+/apps/customer-portal/         @identitysec/frontend
+/apps/admin-console/           @identitysec/frontend
+/apps/identity-api-gateway/    @identitysec/backend @identitysec/security
+/apps/billing-service/         @identitysec/backend @identitysec/security
+
+/.infrastructure/              @identitysec/platform-devops
+
+/data-platform/streaming/      @identitysec/data-streaming
+/data-platform/analytics/      @identitysec/data-analytics
+/data-platform/schemas/        @identitysec/data-streaming @identitysec/data-analytics @identitysec/backend
+
+/data-science/                 @identitysec/data-science
+
+/platform-packages/            @identitysec/platform-devops
+
+/tests/                        @identitysec/qa-automation
