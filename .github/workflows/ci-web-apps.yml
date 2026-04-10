@@ -1,0 +1,13 @@
+name: CI - Web Apps
+on:
+  pull_request:
+    paths:
+      - 'apps/customer-portal/**'
+      - 'apps/admin-console/**'
+      - 'platform-packages/ui-kit/**'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "turbo run build --filter=[HEAD^1]"

@@ -1,0 +1,13 @@
+name: CI - Auth & Billing Services
+on:
+  pull_request:
+    paths:
+      - 'apps/identity-api-gateway/**'
+      - 'apps/billing-service/**'
+      - 'platform-packages/**'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "affected-service detection + test run"

@@ -1,0 +1,11 @@
+name: CI - Data Pipelines
+on:
+  pull_request:
+    paths:
+      - 'data-platform/**'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "dbt build --select state:modified+ / flink job unit tests"
