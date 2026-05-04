@@ -1,0 +1,6 @@
+{
+  "name": "@identitysec/ui-kit",
+  "version": "2.4.0",
+  "main": "dist/index.js",
+  "scripts": { "build": "tsup src/index.tsx" }
+}
