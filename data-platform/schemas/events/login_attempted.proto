@@ -1,0 +1,9 @@
+syntax = "proto3";
+package identitysec.events;
+
+message LoginAttempted {
+  string account_id = 1;
+  string session_id = 2;
+  string status = 3; // success | failure
+  int64 event_ts = 4;
+}
