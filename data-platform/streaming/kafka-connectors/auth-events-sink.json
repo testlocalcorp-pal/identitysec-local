@@ -1,0 +1,8 @@
+{
+  "name": "auth-events-snowflake-sink",
+  "config": {
+    "connector.class": "com.snowflake.kafka.connector.SnowflakeSinkConnector",
+    "topics": "events.login_attempted,events.password_reset_requested",
+    "snowflake.database.name": "RAW_AUTH_EVENTS"
+  }
+}
