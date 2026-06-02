@@ -1,0 +1,4 @@
+name: 'identitysec_analytics'
+version: '1.0.0'
+profile: 'identitysec'
+model-paths: ["models"]
