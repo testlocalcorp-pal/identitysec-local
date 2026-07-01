@@ -1,0 +1,7 @@
+{
+  "consumer": { "name": "identity-api-gateway" },
+  "provider": { "name": "billing-service" },
+  "interactions": [
+    { "description": "a valid subscription charge request", "request": { "method": "POST", "path": "/subscriptions/charge" }, "response": { "status": 200 } }
+  ]
+}
