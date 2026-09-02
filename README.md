@@ -2,7 +2,7 @@
 
 Monorepo for the IdentitySec identity & access management product: customer
 and admin apps, the identity/billing services, the data platform, and ML
-systems for fraud/risk scoring, sharing infra and internal libraries.
+systems for fraud/risk scoring, shared infra and internal libraries.
 
 ## Structure
 
